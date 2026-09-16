@@ -1,6 +1,6 @@
 {
   "name": "aim-doctor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Explain and debug your own AIM usage numbers. Answers why your AI hours, consistency or rank look the way they do, finds days AIM failed to capture, and writes a bug report if something genuinely does not add up.",
   "author": {
     "name": "Kinshuk Kashyap"

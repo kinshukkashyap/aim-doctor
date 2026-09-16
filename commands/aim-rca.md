@@ -33,6 +33,29 @@ Write to `~/Desktop/aim-bug-<YYYY-MM-DD>-<short-slug>.md` containing:
 
 Then tell the user the file path and that they can send it to Kinshuk.
 
+## ⚠️ Tell them what is in the report before they send it
+
+A good report quotes real local detail — `prefs.json` contents, project paths, database
+rows, excluded folder names. That is what makes it reproducible, and it is all the user's
+own data on their own machine. **But the entire point is that they forward it to someone
+else**, so they may share more than they intended.
+
+Before handing over the file path, say plainly what went into it. Call out specifically:
+
+- **Excluded project names and paths.** These are the things the user deliberately hid from
+  tracking, so they are the most likely to be sensitive — other clients, side work, personal
+  directories. A real report has already named `Documents/<client>` or similar.
+- **Any absolute paths** revealing directory structure, usernames, or unrelated employers.
+- **Repository and project names** not connected to the bug.
+
+Then offer to redact: *"I can replace the excluded project names with placeholders if you'd
+rather not share them — the bug reproduces either way."* Placeholders like `<excluded-1>`
+keep the report valid, because what matters is that a day was excluded, not which project
+it was.
+
+**Never send or upload the report anywhere yourself.** Write the file, say what is in it,
+and let the user decide.
+
 ## Rules
 
 - **Every number in the report must come from a command you actually ran.** No estimates
