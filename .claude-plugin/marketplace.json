@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "aim-tools",
+  "description": "Tools for working with AIM, the AI usage tracker",
+  "owner": {
+    "name": "Kinshuk Kashyap"
+  },
+  "plugins": [
+    {
+      "name": "aim-doctor",
+      "description": "Explain and debug your own AIM usage numbers, find days AIM failed to capture, and write up genuine bugs.",
+      "author": { "name": "Kinshuk Kashyap" },
+      "category": "productivity",
+      "source": "./"
+    }
+  ]
+}
