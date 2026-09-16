@@ -29,9 +29,17 @@ no access to anyone else's data.
 ## Install
 
 ```
-/plugin marketplace add ~/Documents/Personal/Code/aim/plugin
+/plugin marketplace add kinshukkashyap/aim-doctor
 /plugin install aim-doctor@aim-tools
 ```
+
+Requires AIM installed at `/Applications/AIM.app`. If yours is elsewhere, say so when asked.
+
+## Source of truth
+
+This repo is **generated**. The source lives in the private `aim` repo under `plugin/`, so
+the plugin's description of the metrics cannot drift from the code that computes them.
+Edit it there, not here.
 
 ## Use
 
